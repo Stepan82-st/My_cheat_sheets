@@ -1,0 +1,12 @@
+var a;var myNewA,myNextVar;console.log(a);console.log(myNewA);var b;var color;b=547;color="red";console.log(b);console.log(color);var a;var c;c=7;a=21;c=a;console.log(c);var d,k=120,out="Lorem",n;n="name";d=n;console.log(d);var m=7;var g=3;var k;k=m+g;console.log(k);k=m-g;console.log(k);k=m*g;console.log(k);k=m/g;console.log(k);k=m%g;console.log(k);m--;console.log(k);g++;console.log(k);var m=7;var g=3;var k=(m<g);console.log(k);k=(m>g);console.log(k);k=(m<=g);console.log(k);m=3;k=(m>=g);console.log(k);m=5;k=(m==g);console.log(k);k=(m!=g);console.log(k);var m="3";var g=3;k=(m==g);console.log(k);k=(m!=g);console.log(k);k=(m===g);console.log(k);k=(m!==g);console.log(k);var k;var m=true;var g=true;var s=false;var t=false;k=m&&g;console.log(k);k=m||g;console.log(k);k=g&&t;console.log(k);k=s||g;console.log(k);k=s||t;console.log(k);k=g&&(!t);console.log(k);var tree="елочка";var sizeTree="маленькая";var l=sizeTree+" "+tree;console.log(l);var k=16;var f=k+" ворон сидят на проводах";console.log(f);var m=7;var g=8;var k=4;if(m>g){k=5;}
+console.log(k);g=3;if(m>g){k=5;}
+console.log(k);var m=7;var g=3;var k;if(m<g){k=5;}else if(m==g){k=1;}else{k=4;}
+console.log(k);var g=5;var k;switch(g){case"next":k="site";break;case 5:k="five";break;case 4.3:k=18;break;default:k="none";break;}
+console.log(k);var arrA=[];var arrB=[];var c=[],m;m=[];var arrNew=[1,80,37,2,0,40];var k=["blue",27,"red","dog",15];var m=[4,276,5],s=["red","yellow"];var arrNew=[1,80,37,2,0,40];var f=arrNew[4];console.log(arrNew[2]);console.log(f);console.log(arrNew[8]);var m=[28,"black","Lorem"];console.log(m);m[1]=7;m[5]=29;m[3]=m[2];console.log(m);var array1={};var array2={first:"white",second:25,third:"yellow",another:45,last:true};c=array2["second"];console.log(c);k=array2["another"];console.log(k);console.log(array2);var name1="old";array2[name1]=98.5;array2["myText"]=3;console.log(array2);var i=0;while(i<11){i++;console.log(i);}
+var i=5;do{++i;console.log(i);}while(i<5);var n=12;for(var i=0;i<n;i++){console.log(i);}
+for(var i=1,a=0,b=1;i<100;i=a+b,a=b,b=i){console.log(i);}
+var a={Lorem:28,ipsum:true,dolor:"Neptune",sit:"reddens",amet:"pater",a:"beneficiorum",lenoni:"pedes",vero:"rex"};var k="список имен индексов: ";for(var nam in a){console.log("индекс: "+
+nam+" , содержимое: "+
+a[nam]);k=k+"\n\t\t\t"+nam;}
+console.log(k);function myBestFun(p1,p2){var rez;rez=(p1+p2)/(2*p2)*(p1-p2);return rez;}
+console.log(myBestFun(3,11.4));var b=1.2,m=10,k=5;var c=myBestFun(2.5,b);console.log(c);var n=25+myBestFun(m,k);console.log(n);
